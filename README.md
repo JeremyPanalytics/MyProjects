@@ -10,4 +10,9 @@ If you are looking for what I have done before, please start here!
 - I tried other models such as Support Vector Machines (SVM) and Random Forests.
 - 2nd Place! Won a $50 GrabFood voucher.
 
-### 2) TensorFlow: Using Long-short term memory to predict Ripple price <a href=""> Link here </a>
+### 2) TensorFlow: Using Long-short term memory (LSTM) to predict Ripple price <a href=""> Link here </a>
+- Learning TensorFlow developer certification <a href="https://www.udemy.com/join/login-popup/?next=/course/tensorflow-developer-certificate-machine-learning-zero-to-mastery/learn/lecture/25109862#overview"> Course Link </a>
+- Decided to learn how to do LSTM models first to fulfill my dreams to make a money making algorithm
+- So, I coded my own algorithm to predict XRP (Ripple) price. 
+- Needless to say, it is tough. See for yourself...
+<img src="">
