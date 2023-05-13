@@ -15,7 +15,7 @@ If you are looking for what I have done before, please start here!
 - Decided to learn how to do LSTM models first to fulfill my dreams to make a money making algorithm
 - So, I coded my own algorithm to predict XRP (Ripple) price. 
 - Needless to say, it is tough. See for yourself...
-<img src="Timeseries_XRP.png" width = 500 height = 400>
+<img src="Timeseries_XRP.png" width = 550 height = 400>
 - Essentially, you can see the autoregressive effects, where the performance on the day before predicts the direction on the following day.  
   
 ## R Programming
