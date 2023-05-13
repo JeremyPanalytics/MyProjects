@@ -8,5 +8,6 @@ If you are looking for what I have done before, please start here!
 - Through the course and project, I learnt how to clean and prepare data for analysis, visualise data, and use machine learning models to predict defaulters.
 - The project only shows the *final* TensorFlow model I used. 
 - I tried other models such as Support Vector Machines (SVM) and Random Forests.
+- 2nd Place! Won a $50 GrabFood voucher.
 
-  ### 2) TensorFlow: Using Long-short term memory to predict Ripple price <a href=""> Link here </a>
+### 2) TensorFlow: Using Long-short term memory to predict Ripple price <a href=""> Link here </a>
