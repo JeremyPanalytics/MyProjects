@@ -17,3 +17,6 @@ If you are looking for what I have done before, please start here!
 - Needless to say, it is tough. See for yourself...
 <img src="Timeseries_XRP.png" width = 500 height = 400>
 - Essentially, you can see the autoregressive effects, where the performance on the day before predicts the direction on the following day.  
+  
+## R Programming
+- Coming soon!
