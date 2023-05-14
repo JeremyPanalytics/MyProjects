@@ -20,5 +20,11 @@ If you are looking for what I have done before, please start here!
 - Essentially, you can see the autoregressive effects, where the performance on the day before predicts the direction on the following day.  
 - Written on Google Collab.
   
+### 3) 100 Days of Coding Data Science Project <a href = "https://github.com/JeremyPanalytics/MyProjects/blob/main/100-days-of-code-Data-Science-Capstone.ipynb"> Link here </a>
+<ul>
+  <li> Applying some data science practice to the 100 Days of Coding capstone project.
+  <li> Here, I predict earnings from the data source from an American Longitudinal study.
+  <li> Currently incomplete. Planning to do more analysis.
+  
 ## R Programming
 - Coming soon!
