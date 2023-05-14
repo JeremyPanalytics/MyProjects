@@ -19,7 +19,7 @@ If you are looking for what I have done before, please start here!
 <li> Needless to say, it is tough to use the model reliably. See for yourself...
 <img src="Timeseries_XRP.png" width = 550 height = 400>
 <li> Essentially, you can see the autoregressive effects, where the performance on the day before predicts the direction on the following day.  
-<li> Written on Google Collab.
+<li> Written on Google Colab.
   </ul>
   
 ### 3) 100 Days of Coding Data Science Project <a href = "https://github.com/JeremyPanalytics/MyProjects/blob/main/100%20days%20of%20code%20Data%20Science%20Capstone.ipynb"> Link here </a>
