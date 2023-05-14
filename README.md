@@ -28,5 +28,6 @@ If you are looking for what I have done before, please start here!
   <li> Here, I predict earnings from the data source from an American Longitudinal study.
   <li> Currently incomplete. Planning to do more analysis (ML models, feature selection). 
 </ul>
+  
 ## R Programming
 - Coming soon!
