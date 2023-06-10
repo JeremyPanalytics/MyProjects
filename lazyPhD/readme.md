@@ -25,6 +25,7 @@
   <li> View results in chronological order (as it appears in the document)
 </ol>
 
+# Results
 <p>Here it is: </p>
 <img src = "APAoutput.png">
 
