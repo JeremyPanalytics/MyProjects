@@ -22,7 +22,10 @@ If you are looking for what I have done before, please start here!
 <li> Written on Google Colab.
   </ul>
   
-### 3) 100 Days of Coding Data Science Project <a href = "https://github.com/JeremyPanalytics/MyProjects/blob/main/100%20days%20of%20code%20Data%20Science%20Capstone.ipynb"> Link here </a>
+### 3) My lazy PhD APA format checker <a href="https://github.com/JeremyPanalytics/MyProjects/tree/main/lazyPhD"> Link here </a>
+<p> This is my project on streamlining my checks for my PhD and any academic documents. I realised it took way too long scrolling through each text to find all the places which require formatting checks.</p> <p>This is my answer.</p>
+  
+### 4) 100 Days of Coding Data Science Project <a href = "https://github.com/JeremyPanalytics/MyProjects/blob/main/100%20days%20of%20code%20Data%20Science%20Capstone.ipynb"> Link here </a>
 <ul>
   <li> Applying some data science practice to the 100 Days of Coding capstone project.
   <li> Here, I predict earnings from the data source from an American Longitudinal study.
