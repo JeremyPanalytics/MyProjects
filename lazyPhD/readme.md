@@ -6,7 +6,7 @@
 
 <p> But in my work, I am typically expected to write huge chunks of text but with many in-text citations. I need to check each citation to make sure that it conforms to the APA format, but that means I need to go through the entire document, read each line, and check the citations one by one. But it takes a long time and is very detail orientated. For example, I keep messing up <i>et al.</i> and <i>et al.,</i> (can you guess which one is for which?) </p>
 
-<p> So, I realsed that with my limited knowledge on python, I could just run a code to summarise the in-text citations all into one file, which makes it easier to read. </p>
+<p> So, I realsed that with my limited knowledge on python, I could just run a code to summarise the in-text citations all into one file, which makes it easier to read and check. </p>
 
 # Method
 <p> Essentially, the code attached describes the following steps:</p>
