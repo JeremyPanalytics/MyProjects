@@ -4,7 +4,7 @@
 <p>As a PhD student, I have to prepare my proposals for my advisors to vet. Recently, we shifted from the content to the formatting, which is essentially APA 7th formatting. Essentially this: </p>
 <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ytimg.com%2Fvi%2FwEnCZZmKDZ4%2Fmaxresdefault.jpg&f=1&nofb=1&ipt=2915ac5dc4d5ae16027bf039f8fdf81f951d16815de8f1866d499fdc007ff9c2&ipo=images" alt="APA citation" width="300" height="200"> 
 
-<p> But in my work, I am typically expected to write many many many citations. I could go through the entire document and check the citations one by one. For example, I keep messing up <i>et al.</i> and <i>et al.,</i> (can you guess which one is for which?) </p>
+<p> But in my work, I am typically expected to write huge chunks of text but with many in-text citations. I need to check each citation to make sure that it conforms to the APA format, but that means I need to go through the entire document, read each line, and check the citations one by one. But it takes a long time and is very detail orientated. For example, I keep messing up <i>et al.</i> and <i>et al.,</i> (can you guess which one is for which?) </p>
 
 <p> So, I realsed that with my limited knowledge on python, I could just run a code to summarise the in-text citations </p>
 
