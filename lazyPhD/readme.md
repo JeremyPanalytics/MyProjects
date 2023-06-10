@@ -21,12 +21,19 @@
 <ol>
   <li> It worked better!
   <li> As the previous step returned lists of lists, use list comprehension to compile one list
-  <li> Convert to CSV
+  <li> Remove the "()" and convert to CSV
   <li> View results in chronological order (as it appears in the document)
 </ol>
+
+<p>Here it is: </p>
+<img src = "APAoutput.png">
+
+<p> Now, I do not have to scroll through the mind-numbing text just to find all the in-text citations. </p>
+
+
 # Limitations
 For now, I can only check citations in between parentheses. Example: If there were text that said J and P said this (2010), I am unable to check the formatting of J and P. But, it does not matter as much as checking formatting for (J & P, 2010). 
 the other problem is one specific type in my document. example: (i.e. this explains...; J & P, 2010; for example...). This kind of citation does not show up in my results at all. 
 
 # Further work?
-Formulas to return if formatting is met.
+Formulas to return if formatting is met. For example, if "et al." occurs within a parentheses, it should be "et al.,". 
