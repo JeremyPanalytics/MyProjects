@@ -1,34 +1,32 @@
-# MyProjects
-If you are looking for what I have done before, please start here!
+# Programming as a lazy PhD student
 
-## Python
-### 1) Heicoders Applied Machine Learning Capstone Project <a href="https://github.com/JeremyPanalytics/MyProjects/blob/main/Jeremy_Pan_Capstone.ipynb"> Link here <a>
-- <a href="https://heicodersacademy.com/AI200-applied-machine-learning-course"> AI200 Course Link </a>
-- As a Loan Default Prediction Competition, I worked on predicting defaulters based on the LendingClub Loan Default Dataset on Kaggle.
-- Through the course and project, I learnt how to clean and prepare data for analysis, visualise data, and use machine learning models to predict defaulters.
-- The project only shows the *final* TensorFlow model I used. 
-- I tried other models such as Support Vector Machines (SVM) and Random Forests.
-- 2nd Place! Won a $50 GrabFood voucher.
-- Written on Jupyter.
+# Introduction
+<p>As a PhD student, I have to prepare my proposals for my advisors to vet. Recently, we shifted from the content to the formatting, which is essentially APA 7th formatting. Essentially this: </p>
+<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ytimg.com%2Fvi%2FwEnCZZmKDZ4%2Fmaxresdefault.jpg&f=1&nofb=1&ipt=2915ac5dc4d5ae16027bf039f8fdf81f951d16815de8f1866d499fdc007ff9c2&ipo=images" alt="APA citation" width="300" height="200"> 
 
-### 2) TensorFlow: Using Long-short term memory (LSTM) to predict Ripple price <a href="https://github.com/JeremyPanalytics/MyProjects/blob/main/timeseries_analysis_lstm.ipynb"> Link here </a>
-  <ul>
-<li> Learning TensorFlow developer certification <a href="https://www.udemy.com/join/login-popup/?next=/course/tensorflow-developer-certificate-machine-learning-zero-to-mastery/learn/lecture/25109862#overview"> Course Link </a>
-<li> Decided to learn how to do LSTM models first to fulfill my dreams to make a money making algorithm.
-<li> So, I coded my own algorithm to predict XRP (Ripple) price using the previous day closing price, EMA26, EMA12, MACD, MACD SIGNAL,	MACD Difference, and RSI.
-<li> Needless to say, it is tough to use the model reliably. See for yourself...
-<img src="Timeseries_XRP.png" width = 550 height = 400>
-<li> Essentially, you can see the autoregressive effects, where the performance on the day before predicts the direction on the following day.  
-<li> Written on Google Colab.
-  </ul>
-  
-### 3) 100 Days of Coding Data Science Project <a href = "https://github.com/JeremyPanalytics/MyProjects/blob/main/100%20days%20of%20code%20Data%20Science%20Capstone.ipynb"> Link here </a>
-<ul>
-  <li> Applying some data science practice to the 100 Days of Coding capstone project.
-  <li> Here, I predict earnings from the data source from an American Longitudinal study.
-  <li> Currently incomplete. Planning to do more analysis (ML models, feature selection). 
-</ul>
-  
-## R Programming
-- Coming soon!
+<p> But in my work, I am typically expected to write many many many citations. I could go through the entire document and check the citations one by one. For example, I keep messing up <i>et al.</i> and <i>et al.,</i> (can you guess which one is for which?) </p>
 
+<p> So, I realsed that with my limited knowledge on python, I could just run a code to summarise the in-text citations </p>
+
+# Method
+<p> Essentially, the code attached describes the following steps:</p>
+<ol>
+  <li> I loaded in the following modules: re (for regex), pandas (for dataframes), and docx (to read word docs)
+  <li> After loading in the document (in the example I gave a short version), I formatted the paragraphs into dataframes
+  <li> Dataframes are used to determine where the main text starts (using introduction after the content page) 
+  <li> First Regex search: finds all the parentheses e.g. (J & P, 2010), or (this is an example text)
+  <li> Second Regex search A: remove all text only citations e.g. (this is an example text)
+ </ol>
+<p> However, I realised that this regex search had issues. to keep things simple, I found that the regex pattern at the end of numbers is a more viable option, so I tried this: (.*[1-2][0-9][0-9][0-9]\)$).
+<ol>
+  <li> It worked better!
+  <li> As the previous step returned lists of lists, use list comprehension to compile one list
+  <li> Convert to CSV
+  <li> View results in chronological order (as it appears in the document)
+</ol>
+# Limitations
+For now, I can only check citations in between parentheses. Example: If there were text that said J and P said this (2010), I am unable to check the formatting of J and P. But, it does not matter as much as checking formatting for (J & P, 2010). 
+the other problem is one specific type in my document. example: (i.e. this explains...; J & P, 2010; for example...). This kind of citation does not show up in my results at all. 
+
+# Further work?
+Formulas to return if formatting is met.
